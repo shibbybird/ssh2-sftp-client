@@ -94,7 +94,7 @@ sftp.delete(remoteFilePath);
 rename/remove remoteSourcePath to remoteDestPath.
 
 ```
-sftp.remove(remoteSourcePath, remoteDestPath);
+sftp.rename(remoteSourcePath, remoteDestPath);
 ```
 
 #### Connect
